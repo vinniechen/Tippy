@@ -1,45 +1,43 @@
-# Pre-work - Vinnie Chen
+# Pre-work - Tippy
 
-Tip Pal is a tip calculator application for iOS.
+Tippy is a tip calculator application for iOS.
 
-Submitted by: Vinnie Chen
+Submitted by: Vinnie
 
-Time spent: **4** hours spent in total
+Time spent: 2 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] Settings page to change the default tip percentage.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
+* [ ] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- Enabled clear button in bill text field
+- [X] Background color changes as the tip amount changes
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/tLkwGzV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/rks0Lgh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-- Settings button in navigation bar wasn't showing, tried to refer to stackoverflow for help but none of the suggestions seemed to work
+Was looking forward to integrating this with a Venmo API, but found out that the Venmo API had been discontinued last year ):
 
 ## License
 
-    Copyright [2016] [Vinnie Chen]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
